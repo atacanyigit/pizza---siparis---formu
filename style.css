@@ -21,6 +21,10 @@ body {
 
 .hero {
   background: var(--red);
+  background-image: url("./assets/iteration-1/home-banner.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
   min-height: 100vh;
 
   display: flex;
@@ -97,3 +101,4 @@ button:focus-visible {
   margin-top: 8px;
   transition: all 0.25s ease;
 }
+
